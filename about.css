@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #003262;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img{
+    height: 45px;
+    margin-left: 10px;
+}
+
+.navcontent{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navcontent a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.navcontent i{
+    font-weight: 800;
+    font-size: 35px;
+    display: none;
+}
+
+
+.mainbody{
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    background-size: cover;
+    background-color: #64CCC5;
+}
+
+.uppercontent{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nsutlogo{
+    margin-left: 10px;
+}
+
+.address{
+    display: flex;
+    width: 280px;
+    height: 80px;
+    align-items: center;
+}
+
+.address1{
+    width: 220px;
+    text-align: right;
+    font-size: small;
+}
+.addresslogo{
+    width: 55px;
+    height: 80px;
+    margin: 35px 0 0 5px;
+    font-size: 40px;
+}
+
+.lowercontent{
+    display: flex;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+.kulgeet{
+    display: flex;
+    width: 470px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marqee{
+    margin-left: 15px;
+    width: 655px;
+}
+.song{
+    margin-right: 15px;
+}
+
+.dropdown{
+    padding-top: 10px;
+    height: 100px;
+}
+.dropdown ul{
+    height: 50px;
+    font-weight: 600;
+    list-style: none;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dropdown ul li:hover{
+    color: red;
+    display: block;
+}
+.admin ul{
+    height: 200px;
+}
+.acad ul{
+    height: 160px;
+}
+.dropdown ul ul{
+    display: block;
+    width: 200px;
+    background-color: #053B50;
+    position: absolute;
+    line-height: 2.5;
+    visibility: hidden;
+}
+.dropdown ul li:hover ul{
+    visibility: visible;
+}
+
+.locbar{
+    width: 110px;
+    padding: 25px 20px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.content p{
+    padding: 30px 20px 20px 30px;
+    font-size: smaller;
+    line-height: 2;
+}
+
+.footer{
+    margin-top: 80px;
+    background-color: #003262;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    display: flex;
+    justify-content: space-around;
+    line-height: 2;
+}
+.col ul{
+    list-style: none;
+}
