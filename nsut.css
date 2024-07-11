@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #003262;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img{
+    height: 45px;
+    margin-left: 10px;
+}
+
+.navcontent{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navcontent a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.navcontent i{
+    font-weight: 800;
+    font-size: 35px;
+    display: none;
+}
+
+
+.mainbody{
+    width: 100%;
+    height: 580px;
+    display: inline-block;
+    background-size: cover;
+    animation: logochange 20s steps(1) 0s infinite;
+}
+
+@keyframes logochange {
+    0%{background-image: url(nsut5.jpg)}
+    20%{background-image: url(nsut4.png)}
+    40%{background-image: url(nsut3.png)}
+    60%{background-image: url(nsut1.jpg)}
+    80%{background-image: url(nsut2.jpg)}
+    100%{background-image: url(nsut5.jpg)}
+}
+
+.uppercontent{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nsutlogo{
+    margin-left: 10px;
+}
+
+.address{
+    display: flex;
+    width: 280px;
+    height: 80px;
+    align-items: center;
+}
+
+.address1{
+    width: 220px;
+    text-align: right;
+    font-size: small;
+}
+.addresslogo{
+    width: 55px;
+    height: 80px;
+    margin: 35px 0 0 5px;
+    font-size: 40px;
+}
+
+.lowercontent{
+    display: flex;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+.kulgeet{
+    display: flex;
+    width: 470px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.kulgeet h3{
+    animation: colorkulgeet 20s steps(1) 0s infinite;
+}
+@keyframes colorkulgeet{
+    0%{color: red;}
+    20%{color: black;}
+}
+
+.marqee{
+    margin-left: 15px;
+    width: 655px;
+}
+.song{
+    margin-right: 15px;
+}
+
+.dropdown{
+    height: 100px;
+}
+.dropdown ul{
+    height: 50px;
+    font-weight: 600;
+    list-style: none;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dropdown ul li:hover{
+    color: royalblue;
+    display: block;
+}
+.dropdown ul ul{
+    display: block;
+    position: absolute;
+    line-height: 2.5;
+    visibility: hidden;
+}
+.dropdown ul li:hover ul{
+    visibility: visible;
+}
+
+.about{
+    margin-top: 70px;
+    padding: 0 15px 10px 25px;
+}
+.about h2{
+    font-size: xx-large;
+    margin-top: 50px;
+    word-spacing: 2;
+    margin: 10px;
+    text-decoration: underline darkgreen;
+}
+.head_nsut{
+    color: blue;
+}
+.about p{
+    line-height: 2;
+}
+
+.admissions{
+    height: 1000px;
+    margin-top: 100px;
+    padding-top: 15px;
+    color: black;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm378-09-kny9fh3b.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=4d5a73287b905c872e0924f49b3179f8);
+}
+.phd, .ug, .pg{
+    display: flex;
+    height: 275px;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+.phdcontent{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-image: url(pic2.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+.ugcontent, .pgcontent{
+    text-align: center;
+    width: 50%;
+    border-radius: 5%
+}
+.insidephd, .insideug, .insidepg{
+    width: 50%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%
+}
+.phdcontent h3{
+    padding-top: 30px;
+}
+.ugcontent h3, .pgcontent h3{
+    padding-top: 20px;
+    font-size: 1.3vw;
+    margin-left: 125px;
+    width: 350px;
+    border-bottom: 1px solid;
+}
+
+.departments{
+    /* height: 500px; */
+    margin-top: 80px;
+}
+.departcont{
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgposition{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.faculty,.department,.centre{
+    width: 25%;
+    height: 400px;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+.button1,.button2{
+    padding: 5px;
+    border-style: solid;
+    color: #003262;
+}
+
+.research{
+    background-image: url(https://wallpaperaccess.com/full/202978.jpg);
+    height: 600px;
+}
+.research p{
+    color: bisque;
+    line-height: 2;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.socialmed{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.youtube{
+    height: 80%;
+    width: 40%;
+}
+.fb{
+    width: 40%;
+}
+
+.footer{
+    background-color: #003262;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    display: flex;
+    justify-content: space-around;
+    line-height: 2;
+}
+.col ul{
+    list-style: none;
+}
+
+
+
+@media (max-width:550px) {
+    nav{
+        padding: 0 3vw;
+    }
+    .navcontent a{
+        display: none;
+    }
+}
